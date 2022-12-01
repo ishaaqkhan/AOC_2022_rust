@@ -15,5 +15,5 @@ fn main() {
     sorted_sum.reverse();
     let _max_value = *sum.iter().max().unwrap();
     let _max_three_sum = sorted_sum[0] + sorted_sum[1] + sorted_sum[2];
-    println!("{}", format!("Max value: {} \nMax three sum: {}", _max_value, _max_three_sum));
+    println!("Max value: {} \nMax three sum: {}", _max_value, _max_three_sum);
 }
